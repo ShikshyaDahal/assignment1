@@ -19,9 +19,10 @@
   <tbody>
   <% @subject.each do |course| %>
     <% if @course.id == course.course_id %>
-      <tr>
-        <td><%= course.title %></td>
-        <br/>
+      <td>
+      <td><%= course.title %></td>
+      <td>   <%= button_to "delete", course, :method=>:delete, :class=>:destroy %></td>
+      <br/>
       </tr>
     <% end %>
   <% end %>

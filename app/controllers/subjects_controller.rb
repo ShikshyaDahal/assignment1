@@ -59,7 +59,7 @@ class SubjectsController < ApplicationController
   def destroy
     @subject.destroy
     respond_to do |format|
-      format.html { redirect_to subjects_url, notice: 'Subject was successfully destroyed.' }
+      format.html { redirect_to courses_path, notice: 'Subject was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
