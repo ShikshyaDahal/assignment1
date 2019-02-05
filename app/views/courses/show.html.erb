@@ -7,21 +7,22 @@
 
 <%= link_to 'Edit', edit_course_path(@course) %> |
 <%= link_to 'Back', courses_path %> |
-
-<h2>Subjects</h2>
-<table>
-  <thead>
+<br/>
+<br/>
+<hr>
+<tr>
+  <h2>Subjects</h2></tr>
+<table cellpadding="5px">
   <tr>
     <th>Title</th>
+    <th>Action</th>
   </tr>
-  </thead>
 
   <tbody>
   <% @subject.each do |course| %>
     <% if @course.id == course.course_id %>
-      <td>
       <td><%= course.title %></td>
-      <td>   <%= button_to "delete", course, :method=>:delete, :class=>:destroy %></td>
+      <td> <%= button_to "delete", course, :method=>:delete, :class=>:destroy %></td>
       <br/>
       </tr>
     <% end %>
