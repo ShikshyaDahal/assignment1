@@ -37,7 +37,6 @@
             <td></td>
             <td    bgcolor="#ffebcd"><%= subject.title %></td>
             <td    bgcolor="#ffebcd"><%= link_to 'Show', subject %></td>
-            <td    bgcolor="#ffebcd"><%= link_to 'Edit', edit_subject_path(subject) %></td>
             <td    bgcolor="#ffebcd">
               <%#= link_to 'Destroy', subject, method: :delete, data: {confirm: 'Are you sure?'} %>
               <%= button_to "delete", subject, :method => :delete, :class => :destroy %>
