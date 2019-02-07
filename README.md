@@ -1,24 +1,10 @@
-# README
+This is a project done as first assignment for Software Architecture and Design submitted to Dr. Chaklam Silpasuwanchai.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The report for the project is in the following link
 
-Things you may want to cover:
+https://github.com/ShikshyaDahal/assignment1/blob/master/report.pdf
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Project members:
+Shikshya Dahal(st120186)
+Bibhuti Regmi(st120320)
+Abhishek Koirala(st120199)
